@@ -63,3 +63,8 @@ sudo dpkg -i termius.deb
 
 #pip
 sudo apt install python3-pip
+
+#java
+sudo apt-get install openjdk-8-jdk
+sudo apt-get install openjdk-10-jdk
+

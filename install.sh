@@ -16,18 +16,18 @@ sudo dpkg -i discord.deb
 #ghidra
 cd 
 cd Desktop
-wget -O ghidra.zip https://ghidra-sre.org/ghidra_9.2.1_PUBLIC_20201215.zip
+wget -O ghidra.zip "https://ghidra-sre.org/ghidra_9.2.1_PUBLIC_20201215.zip"
 unzip ghidra.zip
 rm ghidra.zip
 cd
 cd Downloads
 
 #VS code
-wget -O vscode.deb https://code.visualstudio.com/docs/?dv=linux64_deb
+wget -O vscode.deb "https://code.visualstudio.com/docs/?dv=linux64_deb"
 dpkg -i vscode.deb
 
 #google chrome
-wget -O chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget -O chrome.deb "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 dpkg -i chrome.deb
 
 #kde connect 

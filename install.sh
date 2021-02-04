@@ -37,7 +37,8 @@ sudo apt install -y kdeconnect
 sudo apt install -y torbrowser-launcher
 
 #zsh
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
+sudo apt install -y zsh
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 #htop
 sudo apt install -y htop

@@ -10,7 +10,7 @@ wget https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i  steam.deb
 
 #discord
-wget -O discord.deb https://discord.com/api/download?platform=linux&format=deb
+wget -O discord.deb "https://discord.com/api/download?platform=linux&format=deb"
 sudo dpkg -i discord.deb
 
 #ghidra

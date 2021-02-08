@@ -23,7 +23,7 @@ cd
 cd Downloads
 
 #VS code
-wget -O vscode.deb "https://code.visualstudio.com/docs/?dv=linux64_deb"
+wget -O vscode.deb "https://az764295.vo.msecnd.net/stable/8490d3dde47c57ba65ec40dd192d014fd2113496/code_1.53.0-1612368357_amd64.deb"
 sudo dpkg -i vscode.deb
 
 #google chrome

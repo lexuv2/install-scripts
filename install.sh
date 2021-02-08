@@ -33,12 +33,12 @@ sudo dpkg -i chrome.deb
 #kde connect 
 sudo apt install -y kdeconnect
 
+#kde binwalk
+sudo apt install -y binwalk
+
 #tor
 sudo apt install -y torbrowser-launcher
 
-#zsh
-sudo apt install -y zsh
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 #htop
 sudo apt install -y htop
@@ -69,3 +69,7 @@ sudo apt install -y python3-pip
 sudo apt-get install -y openjdk-8-jdk
 sudo apt-get install -y openjdk-10-jdk
 
+
+#zsh
+sudo apt install -y zsh
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"

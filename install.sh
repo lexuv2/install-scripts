@@ -24,11 +24,11 @@ cd Downloads
 
 #VS code
 wget -O vscode.deb "https://code.visualstudio.com/docs/?dv=linux64_deb"
-dpkg -i vscode.deb
+sudo dpkg -i vscode.deb
 
 #google chrome
 wget -O chrome.deb "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
-dpkg -i chrome.deb
+sudo dpkg -i chrome.deb
 
 #kde connect 
 sudo apt install -y kdeconnect

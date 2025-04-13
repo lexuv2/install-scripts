@@ -1,28 +1,18 @@
 
 sudo dnf update
-sudo dnf install syncthing
-sudo dnf install git
-sudo dnf install binwalk 
-sudo dnf install htop
-sudo dnf install hexedit
-sudo dnf install nmap
-sudo dnf install uv
-sudo dnf install yt-dlp
-sudo dnf install gh
-sudo dnf install g++
-sudo dnf install gcc
+sudo dnf install syncthing  git binwalk htop hexedit nmap uv yt-dlp gh g++ gcc gnome-tweaks zsh
 
 
 
-
-flatpak install com.discordapp.Discord
-flatpak install app.drey.Warp
-flatpak install com.moonlight_stream.Moonlight
-flatpak install com.sindresorhus.Caprine
-flatpak install md.obsidian.Obsidian
-flatpak install org.ghidra_sre.Ghidra
-flatpak install org.godotengine.Godot
-flatpak install it.mijorus.gearlever
+flatpak install -y  com.discordapp.Discord
+flatpak install -y app.drey.Warp
+flatpak install -y com.moonlight_stream.Moonlight
+flatpak install -y com.sindresorhus.Caprine
+flatpak install -y md.obsidian.Obsidian
+flatpak install -y org.ghidra_sre.Ghidra
+flatpak install -y org.godotengine.Godot
+flatpak install -y it.mijorus.gearlever
+flatpak install -y io.github.shiftey.Desktop
 
 wget https://github.com/rizinorg/cutter/releases/download/v2.3.4/Cutter-v2.3.4-Linux-x86_64.AppImage
 latpak run it.mijorus.gearlever --integrate Cutter-v2.3.4-Linux-x86_64.AppImage
@@ -61,6 +51,7 @@ code --install-extension ms-vscode.hexeditor
 
 # uv tool install angr-management
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo remember to autostart and configure syncthing
 

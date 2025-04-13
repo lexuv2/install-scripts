@@ -15,7 +15,7 @@ flatpak install -y it.mijorus.gearlever
 flatpak install -y io.github.shiftey.Desktop
 
 wget https://github.com/rizinorg/cutter/releases/download/v2.3.4/Cutter-v2.3.4-Linux-x86_64.AppImage
-latpak run it.mijorus.gearlever --integrate Cutter-v2.3.4-Linux-x86_64.AppImage
+flatpak run it.mijorus.gearlever --integrate Cutter-v2.3.4-Linux-x86_64.AppImage
 
 
 
